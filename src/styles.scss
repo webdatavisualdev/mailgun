@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+@import "variables";
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/font-awesome/scss/font-awesome';
+
+html, body {
+    height: 100%;
+}
+
+app-root {
+    display: block;
+    height: 100%;
+}
+
+app-template {
+    display: block;
+    height: 100%;
+}
+
+slide {
+    max-height: 400px;
+    overflow-y: scroll;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background: #000000;
+    opacity: .1;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    opacity: .3;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 40px;
+    height: 40px;
+}
